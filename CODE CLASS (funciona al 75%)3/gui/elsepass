@@ -1,0 +1,6 @@
+             or
+        Where seccion like = ('%?%') or
+        Where apellido like = ('%?%') or
+        Where nombre like = ('%?%') and
+        Where Fecha_y_Hora BETWEEN ('?') and ('?') or
+        where Motivo like ('%?%')

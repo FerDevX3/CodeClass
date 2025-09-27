@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>btnCodeClass</class>
+ <widget class="QMainWindow" name="btnCodeClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>949</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Nirmala Text</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">CodeClass-Menu</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>529</x>
+      <y>250</y>
+      <width>331</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:72pt; color:#3777a9;&quot;&gt;Class&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>328</x>
+      <y>170</y>
+      <width>262</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; color:#ffe361;&quot;&gt;Code &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>868</x>
+      <y>320</y>
+      <width>64</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; color:#ffe361;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>320</y>
+      <width>64</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; color:#3777a9;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>949</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAcrivos">
+    <property name="title">
+     <string>Archivos</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>Módulo y Talleres</string>
+     </property>
+     <addaction name="actionRegistrar_Alumno"/>
+     <addaction name="actionHistorial_de_M_dulo"/>
+     <addaction name="actionEliminar"/>
+     <addaction name="actionRegistrar_M_dulo"/>
+    </widget>
+    <addaction name="actionRegristrar_Asistensia"/>
+    <addaction name="actionRegistrar_Alumnos"/>
+    <addaction name="actionVer_Grafica"/>
+    <addaction name="actionHistorial"/>
+    <addaction name="menu"/>
+   </widget>
+   <widget class="QMenu" name="menucreditos">
+    <property name="title">
+     <string>creditos</string>
+    </property>
+    <widget class="QMenu" name="menuDesarrolladores">
+     <property name="title">
+      <string>Desarrolladores</string>
+     </property>
+     <addaction name="action_leo_mnjvr_2"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuDesarrolladores"/>
+    <addaction name="actionExpo_Infra_2025"/>
+   </widget>
+   <addaction name="menuAcrivos"/>
+   <addaction name="menucreditos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRegristrar_Asistensia">
+   <property name="text">
+    <string>Registrar Asistencia</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionHistorial">
+   <property name="text">
+    <string>Historial de asistencias</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionExpo_Infra_2025">
+   <property name="text">
+    <string>Expo_Infra@2025</string>
+   </property>
+  </action>
+  <action name="action_leo_mnjvr_2">
+   <property name="text">
+    <string>@leo.mnjvr</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionSalida_Personalizada">
+   <property name="text">
+    <string>Salida Personalizada</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionRegistrar_Alumnos">
+   <property name="text">
+    <string>Registrar Alumno</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionVer_Grafica">
+   <property name="text">
+    <string>Ver Gráfica</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionRegistrar_Alumno">
+   <property name="text">
+    <string>Registrar Alumno</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </action>
+  <action name="actionHistorial_de_M_dulo">
+   <property name="text">
+    <string>Historial de Módulo</string>
+   </property>
+  </action>
+  <action name="actionRegistrar_M_dulo">
+   <property name="text">
+    <string>Registrar Módulo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../Downloads/log_2.jpg"/>
+ </resources>
+ <connections/>
+</ui>
