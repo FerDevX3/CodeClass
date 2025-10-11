@@ -10,7 +10,8 @@ And you may run it from Visual Studio Code, then, open app.py and run the pyhton
 
 
 --- AVISO ---
-Para ejecutat rdyr proyecto necesitarás algunas librerías de python:
+
+Para ejecutat este proyecto necesitarás algunas librerías de python:
    * PyQt6
    * matplotlib
    * numpy
